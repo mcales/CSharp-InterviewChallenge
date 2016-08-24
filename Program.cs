@@ -41,7 +41,7 @@ namespace ConsoleApplication1
         }
     }
 
-    // TEST FOR CONSOLE
+
     public sealed class TestIO : IO
     {
         public void WriteLine(string arg)
@@ -55,7 +55,7 @@ namespace ConsoleApplication1
         }
     }
 
-    //A LIST TO HOLD USER VALUES
+
     public static class Db
     {
         public static List<Person> people = new List<Person>();
@@ -65,8 +65,6 @@ namespace ConsoleApplication1
     {
 
 
-
-        // WHAT THIS IS ACTUALLY DOING:
         public static void Main(string[] args)
         {
             var io = new ConsoleIO();
